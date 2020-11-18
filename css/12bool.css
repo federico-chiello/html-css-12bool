@@ -9,10 +9,6 @@
  float: left;
 }
 
-.row {
-  height: 150px;
-}
-
 .row::after {
   content: '';
   display: table;
@@ -114,3 +110,4 @@
 .col-offset-12 {
   margin-left: calc(100% / 12 * 12);
 }
+/* / framework */
