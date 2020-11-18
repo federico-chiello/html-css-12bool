@@ -6,3 +6,12 @@
 .row {
   height: 150px;
 }
+
+.row [class*="col-"]{
+  float: left;
+  height: 100%;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 150px;
+  background-color: pink;
+}
