@@ -1,10 +1,10 @@
 .container{
   max-width: 1170px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .row {
-  height: 150px;
+  height: 200px;
 }
 
 .row [class*="col-"]{
@@ -12,6 +12,15 @@
   height: 100%;
   border: 1px solid black;
   text-align: center;
-  line-height: 150px;
+  line-height: 200px;
   background-color: pink;
+}
+
+.row .row {
+  padding: 5px;
+}
+
+.row .row [class*="col-"]{
+  background-color: rgb(201, 89, 86);
+  border: 1px solid white;
 }
