@@ -11,8 +11,23 @@
   float: left;
   height: 100%;
   width: 100px;
-  border: 1px solid black;
   text-align: center;
   line-height: 100px;
   background-color: white;
+}
+
+.row .yellow {
+  background-color: yellow;
+}
+
+.row .black {
+  background-color: black;
+}
+
+.row .blue {
+  background-color: blue;
+}
+
+.row .col-1 img {
+  height: 100px;
 }
